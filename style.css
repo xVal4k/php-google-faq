@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Header */
+
+header a {
+    color: black;
+}
+
+
+/* Header top */
+
+.header_top,
+.hd_left,
+.hd_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_top {
+    padding: .5rem 1rem;
+    justify-content: space-between;
+}
+
+.google_logo {
+    width: 4.5rem;
+}
+
+.header_top a {
+    font-size: 22px;
+    color: grey;
+}
+
+.user_profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: tomato;
+    margin-left: 1rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* Header bottom */
+nav {
+    margin-bottom: .5rem;
+}
+
+nav a {
+    padding: .5rem 0;
+    margin: 0 1.5rem;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+}
+
+nav a:last-child {
+    color: blue;
+    border-bottom: solid 3px blue;
+}
+
+
+/* Main */
+
+main {
+    padding: 1rem 0 3rem 0;
+}
+
+main p {
+    margin: 2rem 0;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+.question_elements {
+    margin: 4rem 0;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.question_elements h2 {
+    margin-top: 5rem;
+}
+
+.question_elements ol {
+    padding: 0 1rem;
+}
+
+.question_elements ol li {
+    margin: 1rem;
+}
+
+
+/* Footer */
+
+footer {
+    background: lightgray;
+    padding: 1rem 0;
+    color: grey;
+}
+
+.foot_cont {
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.foot_cont,
+.foot_left,
+.foot_right {
+    display: flex;
+    align-items: center;
+}
+
+.foot_left a {
+    font-size: 12px;
+    color: grey;
+    margin: 0 .5rem;
+}
+
+.foot_right select {
+    width: 10rem;
+    margin-left: .5rem;
+}
